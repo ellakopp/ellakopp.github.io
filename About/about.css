@@ -1,0 +1,95 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.category {
+  font-weight: 600;
+}
+
+#desktopfeed {
+  background-color: black;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  right: 0;
+  /*background-image: url(../imgs/perspective.jpg);*/
+  background-color: #EFF0F4;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.categoryimage {
+  background-image: url(../imgs/ellakoppensteiner-profile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 45%;
+  width: 100%;
+}
+
+.categorydesktop {
+  padding: 80px;
+}
+
+.categorytext {
+  padding-top: 25px;
+}
+
+#mobilefeed {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  /*background-image: url(../imgs/perspective.jpg);*/
+  background-color: #EFF0F4;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.categorymobile {
+  padding: 50px;
+}
+
+.bg-light {
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.6)!important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  left: 0;
+}
+
+.topmenu {
+  /* width: 15rem;
+  display: flex;
+  justify-content: space-around; */
+  width: 15rem;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: column;
+  /* padding-top: 3rem; */
+}
+
+.topmenu a {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
+.contact a {
+  color: black;
+  padding-left: 1rem;
+}
+
+.title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1,5rem;
+}
+
+#mobile nav {
+  width: 100%;
+}
