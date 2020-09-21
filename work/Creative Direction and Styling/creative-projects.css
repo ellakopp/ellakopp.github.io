@@ -6,10 +6,6 @@ body {
   font-weight: 600;
 }
 
-.card {
-  border: none;
-}
-
 #desktopfeed {
   height: 100%;
   width: 80%;
@@ -28,11 +24,6 @@ body {
 
 .categorydesktop {
   padding: 80px;
-}
-
-.card-body {
-  background-color: black;
-  color: white;
 }
 
 .categorytext {
@@ -71,14 +62,9 @@ a:hover {
 }
 
 .topmenu {
-  /* width: 15rem;
-  display: flex;
-  justify-content: space-around; */
   width: 15rem;
   display: flex;
-  /* justify-content: space-around; */
   flex-direction: column;
-  /* padding-top: 3rem; */
 }
 
 .topmenu a {
@@ -101,13 +87,3 @@ a:hover {
   width: 100%;
 }
 
-.card-body {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card {
-  border: solid 0,5px grey;
-  background-color: transparent;
-}
