@@ -1,0 +1,146 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  background-color: white;
+}
+
+.category {
+  font-weight: 600;
+}
+
+.card {
+  border: none;
+}
+
+#desktopfeed {
+  background-color: black;
+  /* height: 100%; */
+  width: 80%;
+  position: absolute;
+  right: 0;
+  background-color: #EFF0F4;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.worktitle {
+  padding:80px;
+}
+
+.categorydesktop {
+  padding: 80px;
+}
+
+
+.categorytext {
+  padding-top: 25px;
+}
+
+/* .categoryimage img {
+width: 100%;
+height: 500px;
+} */
+
+.headerimage {
+  height: 20%;
+}
+
+.categoryimage {
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#mobilefeed {
+  background-color: black;
+  /* height: 100%; */
+  width: 100%;
+  /*background-image: url(../imgs/perspective.jpg);*/
+  background-color: #EFF0F4;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.categorymobile {
+  padding: 50px;
+}
+
+.bg-light {
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.6)!important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  left: 0;
+}
+
+.topmenu {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.topmenu a {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
+.contact a {
+  color: black;
+  padding-left: 1rem;
+}
+
+.title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1,5rem;
+}
+
+#mobile nav {
+  width: 100%;
+}
+
+.accordion {
+  border: 0.5px solid lightgray;
+  border-radius: 2px;
+}
+
+.btn-link {
+  font-weight: 700;
+  color: grey;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  color: #212529;
+}
+
+.btn-link:focus {
+  text-decoration: none;
+  color: #212529;
+}
+
+.card-header {
+  background-color: #EFF0F4;
+}
+
+.card {
+  background-color: white;
+}
+
+.contactbutton {
+  margin: 50px;
+  text-align: center;
+}
