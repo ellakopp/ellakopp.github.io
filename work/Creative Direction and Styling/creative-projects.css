@@ -57,7 +57,7 @@ a:hover {
   align-items: flex-start;
   height: 100%;
   width: 30%;
-  position: absolute;
+  position: fixed;
   left: 0;
 }
 
@@ -86,4 +86,3 @@ a:hover {
 #mobile nav {
   width: 100%;
 }
-
