@@ -8,7 +8,7 @@ body {
 
 #desktopfeed {
   background-color: black;
-  height: 100%;
+  height: auto;
   width: 80%;
   position: absolute;
   right: 0;
@@ -18,17 +18,22 @@ body {
   background-repeat: no-repeat;
 }
 
+.headerimage {
+  height: 20%;
+}
+
 .categoryimage {
-  background-image: url(../imgs/ellakoppensteiner-profile.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 45%;
+  object-fit: cover;
+  height: 300px;
   width: 100%;
 }
 
 .categorydesktop {
   padding: 80px;
+}
+
+br {
+
 }
 
 .categorytext {
@@ -41,7 +46,7 @@ a:hover {
 
 #mobilefeed {
   background-color: black;
-  height: 100%;
+  height: auto;
   width: 100%;
   /*background-image: url(../imgs/perspective.jpg);*/
   background-color: #EFF0F4;
@@ -62,7 +67,7 @@ a:hover {
   align-items: flex-start;
   height: 100%;
   width: 30%;
-  position: absolute;
+  position: fixed;
   left: 0;
 }
 
