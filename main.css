@@ -183,3 +183,7 @@ h2 {
 #mobile nav {
   width: 100%;
 }
+
+.carousel-inner {
+  margin-top: -30%;
+}
