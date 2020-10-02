@@ -185,5 +185,5 @@ h2 {
 }
 
 .carousel-inner {
-  margin-top: -30%;
+  margin-top: -30% !important;
 }
