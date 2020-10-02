@@ -34,6 +34,37 @@ a:hover {
   text-decoration: none;
 }
 
+.details {
+  border:none;
+}
+
+.card-header {
+  background-color: white;
+}
+
+.details-btn {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.details-btn:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.details-btn:focus {
+  text-decoration: none;
+}
+
+.fa-plus {
+  font-size: 12;
+  margin: 5px;
+  color: grey;
+}
+
 #mobilefeed {
   background-color: black;
   height: auto;
