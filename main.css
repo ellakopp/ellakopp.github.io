@@ -154,6 +154,7 @@ h2 {
 .clientimage {
   width: 90%;
   margin-top: 22px;
+  object-fit: contain;
 }
 
 #contact {
