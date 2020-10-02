@@ -36,7 +36,7 @@ a:hover {
 
 #mobilefeed {
   background-color: black;
-  height: 100%;
+  height: auto;
   width: 100%;
   /*background-image: url(../imgs/perspective.jpg);*/
   background-color: #EFF0F4;
