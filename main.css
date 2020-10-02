@@ -24,7 +24,7 @@ a:hover {
 }
 
 .background-photo {
-  background-image: url(../imgs/perspective.jpg);
+  background-image: url(imgs/perspective.jpg);
   /* background-color: cadetblue; */
   background-size: cover;
   background-position: center;
